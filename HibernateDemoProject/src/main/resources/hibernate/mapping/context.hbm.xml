@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.yuriy.HibernateDemoProject.FactActivity" table="dbo.FactOkkoActivity">
+		<meta attribute="class-description">
+			This class contains the activity facts.
+		</meta>
+		<id name="oact_id" type="int" column="oact_id">
+			<generator class="native" />
+		</id>
+		<property name="oact_month_date" column="oact_month_date"
+			type="timestamp" />
+		<property name="oact_reg_status" column="oact_reg_status"
+			type="int" />
+		<property name="oact_active" column="oact_active" type="big_decimal" />
+		<property name="oact_new" column="oact_new" type="big_decimal" />
+		<property name="oact_return" column="oact_return" type="big_decimal" />
+		<property name="oact_churn" column="oact_churn" type="big_decimal" />
+	</class>
+</hibernate-mapping>
