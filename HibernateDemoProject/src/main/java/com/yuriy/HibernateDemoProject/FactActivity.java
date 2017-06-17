@@ -16,8 +16,13 @@ public class FactActivity {
 	public FactActivity() {
 	}
 
-	public FactActivity(int oact_id, Timestamp oact_month_date, int oact_reg_status, BigDecimal oact_active,
-			BigDecimal oact_new, BigDecimal oact_return, BigDecimal oact_churn) {
+	public FactActivity(int oact_id, 
+			            Timestamp oact_month_date, 
+			            int oact_reg_status, 
+			            BigDecimal oact_active,
+			            BigDecimal oact_new, 
+			            BigDecimal oact_return, 
+			            BigDecimal oact_churn) {
 		this.oact_id = oact_id;
 		this.oact_month_date = oact_month_date;
 		this.oact_reg_status = oact_reg_status;
