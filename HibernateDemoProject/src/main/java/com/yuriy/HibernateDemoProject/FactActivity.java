@@ -15,7 +15,7 @@ public class FactActivity {
 
 	public FactActivity() {
 	}
-
+	
 	public FactActivity(int oact_id, 
 			            Timestamp oact_month_date, 
 			            int oact_reg_status, 
