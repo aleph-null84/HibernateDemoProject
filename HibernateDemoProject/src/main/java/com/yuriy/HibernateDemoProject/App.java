@@ -40,8 +40,7 @@ public class App
                 e.printStackTrace(); 
              }finally {
                 session.close(); 
-             }
-            
+             }            
             
          }catch (Throwable ex) { 
             System.err.println("Failed to create sessionFactory object." + ex);
