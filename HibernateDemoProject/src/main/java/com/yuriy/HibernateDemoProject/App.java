@@ -36,7 +36,7 @@ public class App
                 }
                 tx.commit();
              }catch (HibernateException e) {
-                if (tx!=null) tx.rollback();
+                if (tx != null) tx.rollback();
                 e.printStackTrace(); 
              }finally {
                 session.close(); 
